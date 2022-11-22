@@ -32,7 +32,7 @@ public class OrderController {
     private PagedResourcesAssembler<Order> pagedResourcesAssembler;
 
     @GetMapping("/orders")
-    public ResponseEntity<Object> fetchOrderWithPaginationy(
+    public ResponseEntity<Object> fetchOrderWithPagination(
             @RequestParam(defaultValue = "0") int page,
             @RequestParam(defaultValue = "5") int size) {
         log.info("============ Order Controller ============");
