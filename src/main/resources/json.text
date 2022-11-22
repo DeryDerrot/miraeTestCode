@@ -1,0 +1,162 @@
+Path : http://localhost:6666/mirae/orders?page=0&size=2
+Method : GET
+Request : -
+Response :
+{
+    "message": "Ok",
+    "status": 200,
+    "data": {
+        "links": [
+            {
+                "rel": "first",
+                "href": "http://localhost:6666/mirae/orders?page=0&size=2"
+            },
+            {
+                "rel": "self",
+                "href": "http://localhost:6666/mirae/orders?page=0&size=2"
+            },
+            {
+                "rel": "next",
+                "href": "http://localhost:6666/mirae/orders?page=1&size=2"
+            },
+            {
+                "rel": "last",
+                "href": "http://localhost:6666/mirae/orders?page=2&size=2"
+            }
+        ],
+        "content": [
+            {
+                "orderId": 1,
+                "subtotalOrders": 71985000,
+                "shippingCosts": 19000,
+                "taxes": 10,
+                "totalCosts": 79202500,
+                "orderDate": "2022-11-20T17:00:00.000+00:00",
+                "shipDate": "2022-11-20T17:00:00.000+00:00",
+                "purchaseOrderNumber": "1",
+                "paymentReceived": "paid",
+                "comment": "paid",
+                "customerData": {
+                    "customerID": 1,
+                    "companyName": "PT KRUNG",
+                    "firstName": "Radian",
+                    "lastName": "Malik",
+                    "billingAddress": "Jakarta Barat",
+                    "city": "Jakarta",
+                    "stateOrProvince": "DKI Jakarta",
+                    "zipCode": "17121",
+                    "email": "rm@yahoo.co.id",
+                    "companyWebsite": "www.krung.com",
+                    "phoneNumber": "6285670539466",
+                    "faxNumber": "87356363",
+                    "shipAddress": "Jakarta",
+                    "shipCity": "Jakarta Barat",
+                    "shipStateOrProvince": "DKI Jakarta",
+                    "shipZIPCode": "17121",
+                    "shipPhoneNumber": "6285670539466"
+                },
+                "employeeData": {
+                    "employeesID": 1,
+                    "firstName": "Leo",
+                    "lastName": "Watson",
+                    "title": "staff",
+                    "workPhone": "6285670539487"
+                },
+                "shippingData": {
+                    "shippingMethodID": 1,
+                    "shippingMethod": "JNE"
+                },
+                "orderDetail": [
+                    {
+                        "orderDetailID": 1,
+                        "productID": 1,
+                        "productName": "Laptop Lenovo",
+                        "qty": 2,
+                        "price": 8000000,
+                        "dicount": 5000,
+                        "total": 15995000
+                    },
+                    {
+                        "orderDetailID": 2,
+                        "productID": 2,
+                        "productName": "IPhone 12",
+                        "qty": 2,
+                        "price": 12000000,
+                        "dicount": 5000,
+                        "total": 23995000
+                    },
+                    {
+                        "orderDetailID": 3,
+                        "productID": 3,
+                        "productName": "Handphone ASUS ROG",
+                        "qty": 2,
+                        "price": 16000000,
+                        "dicount": 5000,
+                        "total": 31995000
+                    }
+                ],
+                "links": []
+            },
+            {
+                "orderId": 2,
+                "subtotalOrders": 31995000,
+                "shippingCosts": 9000,
+                "taxes": 10,
+                "totalCosts": 35203500,
+                "orderDate": "2022-11-20T17:00:00.000+00:00",
+                "shipDate": "2022-11-20T17:00:00.000+00:00",
+                "purchaseOrderNumber": "2",
+                "paymentReceived": "paid",
+                "comment": "paid",
+                "customerData": {
+                    "customerID": 2,
+                    "companyName": "PT AURA",
+                    "firstName": "LIngga",
+                    "lastName": "Edo",
+                    "billingAddress": "Jakarta Barat",
+                    "city": "Jakarta",
+                    "stateOrProvince": "DKI Jakarta",
+                    "zipCode": "17121",
+                    "email": "rm@yahoo.co.id",
+                    "companyWebsite": "www.aura.com",
+                    "phoneNumber": "6281270896574",
+                    "faxNumber": "87355454",
+                    "shipAddress": "Jakarta",
+                    "shipCity": "Jakarta Barat",
+                    "shipStateOrProvince": "DKI Jakarta",
+                    "shipZIPCode": "17121",
+                    "shipPhoneNumber": "6281270896574"
+                },
+                "employeeData": {
+                    "employeesID": 2,
+                    "firstName": "Ikhsan",
+                    "lastName": "Gursala",
+                    "title": "staff",
+                    "workPhone": "6281270553792"
+                },
+                "shippingData": {
+                    "shippingMethodID": 2,
+                    "shippingMethod": "TIKI"
+                },
+                "orderDetail": [
+                    {
+                        "orderDetailID": 4,
+                        "productID": 3,
+                        "productName": "Handphone ASUS ROG",
+                        "qty": 2,
+                        "price": 16000000,
+                        "dicount": 5000,
+                        "total": 31995000
+                    }
+                ],
+                "links": []
+            }
+        ],
+        "page": {
+            "size": 2,
+            "totalElements": 5,
+            "totalPages": 3,
+            "number": 0
+        }
+    }
+}
